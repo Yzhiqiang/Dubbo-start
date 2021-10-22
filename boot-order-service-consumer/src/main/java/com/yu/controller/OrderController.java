@@ -27,8 +27,7 @@ public class OrderController {
      */
     @ResponseBody
     @RequestMapping("/initOrder")
-    public List<UserAddress> InitOrder(String userId)
-    {
+    public List<UserAddress> InitOrder(String userId) throws InterruptedException {
         System.out.println("用户的id"+userId);
         return orderService.initOrder(userId);
     }

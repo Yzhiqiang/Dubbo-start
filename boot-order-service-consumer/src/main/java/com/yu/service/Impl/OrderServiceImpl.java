@@ -8,6 +8,7 @@ import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -25,14 +26,19 @@ import java.util.List;
 @Service
 public class OrderServiceImpl implements OrderService {
 
-    @Reference             //远程引用服务
+    @Reference(loadbalance = "random", timeout=1000)             //远程引用服务, dubbo
     UserService userService;
 
     @Override
-    public List<UserAddress> initOrder(String userId) {
+    public List<UserAddress> initOrder(String userId) throws InterruptedException {
         System.out.println("用户id："+userId);
         //1.查询用户的收货地址
         List<UserAddress> addressList = userService.getUserAddressList(userId);
         return addressList;
+    }
+
+
+    public List<UserAddress> hello(String userId) throws InterruptedException {
+       return Arrays.asList(new UserAddress(10,"测试地址","1","测试","测试","Y"));
     }
 }

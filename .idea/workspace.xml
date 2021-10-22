@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e44393a2-55b0-4eb7-8a3b-235eca29524f" name="Changes" comment="" />
+    <list default="true" id="e44393a2-55b0-4eb7-8a3b-235eca29524f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/yu/config/MyDubboConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/resources/provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-consumer/src/main/java/com/yu/service/Impl/UserServiceStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-provider/src/main/java/com/yu/service/impl/UserServiceImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/yu/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/yu/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/yu/service/Impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/yu/service/Impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/yu/BootUserServiceProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/yu/BootUserServiceProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/yu/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/yu/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-user-service-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmail-interface/src/main/java/com/yu/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmail-interface/src/main/java/com/yu/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmail-interface/src/main/java/com/yu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmail-interface/src/main/java/com/yu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service-consumer/src/main/java/com/yu/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service-consumer/src/main/java/com/yu/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service-consumer/src/main/java/com/yu/service/Impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service-consumer/src/main/java/com/yu/service/Impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service-consumer/src/main/resources/consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service-consumer/src/main/resources/consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-provider/src/main/java/com/yu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-provider/src/main/java/com/yu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-provider/src/main/resources/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-provider/src/main/resources/provider.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +32,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,6 +61,7 @@
     <option name="jreName" value="1.8 (2)" />
   </component>
   <component name="ProjectId" id="1zch7dTXOlAITmSwE9CDWTdowLj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -43,7 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-service-provider/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-user-service-provider/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -51,17 +83,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12962963" />
     <property name="project.structure.side.proportion" value="0.5042254" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\编程\Dubbo\Dubbo-start\boot-user-service-provider\src\main\resources" />
       <recent name="D:\编程\Dubbo\Dubbo-start\user-service-provider\src\test\java" />
       <recent name="D:\编程\Dubbo\Dubbo-start\user-service-provider\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yu.service.Impl" />
       <recent name="com.yu.service.impl" />
+      <recent name="com.yu.service.Impl" />
       <recent name="com.yu.bean" />
       <recent name="com.yu.service" />
     </key>
@@ -124,12 +157,29 @@
       <updated>1634453119233</updated>
       <workItem from="1634453121539" duration="6439000" />
       <workItem from="1634467404255" duration="7456000" />
-      <workItem from="1634535583187" duration="4079000" />
+      <workItem from="1634535583187" duration="9178000" />
+      <workItem from="1634559595577" duration="7266000" />
+      <workItem from="1634623312910" duration="10996000" />
+      <workItem from="1634736450669" duration="1392000" />
+      <workItem from="1634777268264" duration="1731000" />
+      <workItem from="1634867996256" duration="554000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -140,5 +190,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

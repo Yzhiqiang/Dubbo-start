@@ -12,7 +12,7 @@ import java.io.IOException;
  * @Modified By:
  */
 public class MainApplication {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("consumer.xml");
         OrderService bean = applicationContext.getBean(OrderService.class);
         bean.initOrder("111");

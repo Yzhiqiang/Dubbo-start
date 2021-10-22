@@ -13,5 +13,5 @@ import java.util.List;
  * @Modified By:
  */
 public interface UserService {
-    public List<UserAddress> getUserAddressList(String userId);
+    public List<UserAddress> getUserAddressList(String userId) throws InterruptedException;
 }

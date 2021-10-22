@@ -18,11 +18,15 @@
 <!--    从注册中心去查找监控中心的地址-->
     <dubbo:monitor protocol="registry"></dubbo:monitor>
 
+<!--    配置本地存根-->
+
 <!--    直连监控中心-->
 <!--    <dubbo:monitor address="127.0.0.1:7070"></dubbo:monitor>-->
 
-<!--    声明需要调用的远程服务的接口，生成远程服务代理-->
-    <dubbo:reference interface="com.yu.service.UserService" id="UserService"></dubbo:reference>
+<!--    声明需要调用的远程服务的接口，生成远程服务代理-->  <!--    修改检查-->    <!--    超时时间， 默认是1000-->
+    <dubbo:reference interface="com.yu.service.UserService" id="UserService" timeout="3000" retries="3" version="1.0.0" stub="com.yu.service.Impl.UserServiceStub"></dubbo:reference>
 
+<!--    配置消费者的统一规则-->
+    <dubbo:consumer check="false" ></dubbo:consumer>
 
 </beans>
